@@ -1,4 +1,4 @@
-# RACCooN: Remove, Add, and Change Video Content with Auto-Generated Narratives
+# RACCooN: A Versatile Instructional Video Editing Framework with Auto-Generated Narratives
 [![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://raccoon-mllm-gen.github.io/)  [![arXiv](https://img.shields.io/badge/arXiv-2405.18406-b31b1b.svg)](https://arxiv.org/abs/2405.18406)   [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace%20-cyan.svg)](https://huggingface.co/jaehong31/RACCooN)
 
 
@@ -9,7 +9,7 @@
 <!-- * Online Demo: Coming soon -->
 
 <div align=center> 
-<img src="./assets/raccoon_teaser.png" alt="teaser image" width="800"/>
+<img src="./assets/raccoon-teaser.png" alt="teaser image" width="800"/>
 </div>
 
 
@@ -36,7 +36,7 @@ pip install -e .
 
 <br>
 <div align=center>
-<img src="./assets/raccoon_method.png" alt="teaser image" width="800"/>
+<img src="./assets/pipeline.png" alt="teaser image" width="800"/>
 </div>
 
 ## Download Models
@@ -119,7 +119,7 @@ Please cite our paper if you use our models in your works:
 
 ```bibtex
 @article{yoon2024raccoon,
-  title={RACCooN: Remove, Add, and Change Video Content with Auto-Generated Narratives},
+  title={RACCooN: A Versatile Instructional Video Editing Framework with Auto-Generated Narratives},
   author={Yoon, Jaehong and Yu, Shoubin and Bansal, Mohit},
   journal={arXiv preprint arXiv:2405.18406},
   year={2024}
