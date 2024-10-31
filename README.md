@@ -39,11 +39,19 @@ pip install -e .
 <img src="./assets/pipeline.png" alt="teaser image" width="800"/>
 </div>
 
-## Download Models
+## Download Models & Data
+
+### Video Data
+Our VPLM dataset is based on [ROVI](https://github.com/jianzongwu/Language-Driven-Video-Inpainting) videos, please refer to [ROVI project](https://jianzongwu.github.io/projects/rovi/) page to download raw videos and inpainted videos.
 
 ### Pre-trained Models
 
 **Visual Encoder**: we adopt pre-trained [ViT-G](https://arxiv.org/abs/2303.15389) (1B), the codebase downloads the model automatically.
+
+**Video-LLM**: we build our MLLM base on [PG-Video-LLaVA](https://github.com/mbzuai-oryx/Video-LLaVA), please refer to the project homepage to setup the Video-LLM
+
+**Diffusion Model**: we fine-tune our video inpainting model based on [StabelDiffusion2.0-inpainting](https://huggingface.co/stabilityai/stable-diffusion-2-inpainting), please download the model to further finetune the model as described in our paper.
+
 
 ### V2P Fine-tuned Models
 
