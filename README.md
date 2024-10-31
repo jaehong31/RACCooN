@@ -31,7 +31,7 @@ conda activate RACCooN
 2. build from source
 
 ```bash
-pip install -e .
+pip install -r requirements.txt
 ```
 
 <br>
