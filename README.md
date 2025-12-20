@@ -126,9 +126,9 @@ The code is built upon [PG-Video-LLaVA](https://github.com/mbzuai-oryx/Video-LLa
 Please cite our paper if you use our models in your works:
 
 ```bibtex
-@article{yoon2024raccoon,
-  title={RACCooN: A Versatile Instructional Video Editing Framework with Auto-Generated Narratives},
-  author={Yoon, Jaehong and Yu, Shoubin and Bansal, Mohit},
-  journal={arXiv preprint arXiv:2405.18406},
-  year={2024}
+@inproceedings{yoon2025raccoon,
+    title={RACCooN: A Versatile Instructional Video Editing Framework with Auto-Generated Narratives},
+    author={Yoon, Jaehong and Yu, Shoubin and Bansal, Mohit},
+    booktitle={Conference on Empirical Methods in Natural Language Processing},
+    year={2025},
 }
